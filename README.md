@@ -9,6 +9,7 @@ This repository keeps only reusable personal skills. Project-specific memory, po
 | Skill | Description |
 | --- | --- |
 | [`cloud-codex-installer`](skills/cloud-codex-installer) | Interactively installs and verifies Codex on a cloud server. |
+| [`frontend-design-preferences`](skills/frontend-design-preferences) | Personal frontend UI/UX preferences for components, loading states, responsive layouts, and interaction consistency. |
 
 ## Install
 
@@ -28,6 +29,12 @@ Install one skill globally for Codex:
 
 ```bash
 pnpx skills add MiniJude/skills --skill cloud-codex-installer -g -a codex --copy -y
+```
+
+Install frontend UI preferences:
+
+```bash
+pnpx skills add MiniJude/skills --skill frontend-design-preferences -g -a codex --copy -y
 ```
 
 Install for other agents:
@@ -64,4 +71,3 @@ Each `SKILL.md` should include front matter with `name` and `description`.
 ```bash
 pnpx skills add . --list
 ```
-
